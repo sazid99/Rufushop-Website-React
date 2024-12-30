@@ -1,0 +1,16 @@
+/* Default navbar direction (left to right) */
+.navbar {
+  direction: ltr;
+}
+
+/* For mobile screens, change the direction to right-to-left */
+@media (max-width: 768px) {
+  .navbar {
+    direction: rtl;
+  }
+  
+  /* Optionally, you can also adjust other properties like text alignment */
+  .navbar-nav {
+    text-align: right;
+  }
+}

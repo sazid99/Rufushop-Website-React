@@ -1,0 +1,24 @@
+/* Carousel image size on small screens (mobile/tablets) */
+.carousel-img {
+  width: 100%;
+  height: auto;
+}
+
+/* Carousel image size on larger screens (desktops) */
+@media (min-width: 768px) {
+  .carousel-img {
+    width: 75%; /* Adjust the width as needed */
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (min-width: 992px) {
+  .carousel-img {
+    width: 50%; /* Adjust the width for bigger screens */
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

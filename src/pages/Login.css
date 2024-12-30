@@ -1,0 +1,39 @@
+/* Style for login page */
+.login-container {
+  height: 100vh;
+  background-color: #f4f7fa;
+}
+
+.login-card {
+  background-color: white;
+  border-radius: 15px;
+  width: 100%;
+  max-width: 400px;
+}
+
+.login-container .btn {
+  background-color: #007bff;
+  color: white;
+}
+
+.login-container .btn:hover {
+  background-color: #0056b3;
+}
+
+.login-container .form-control {
+  border-radius: 25px;
+  box-shadow: none;
+}
+
+.login-container .form-control:focus {
+  border-color: #007bff;
+}
+
+.text-center a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.text-center a:hover {
+  text-decoration: underline;
+}
